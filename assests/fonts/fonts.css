@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Muli-900';
+    src: url('Muli-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli-700';
+    src: url('Muli-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli-400';
+    src: url('Muli-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli-800';
+    src: url('Muli-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Muli-600';
+    src: url('Muli-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mangal';
+    src: url('Mangal-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.font-muli-black{
+    font-family: 'Muli-900';
+}
+
+.font-muli-bold{
+    font-family: 'Muli-700;
+}
+
+.font-muli-regular{
+    font-family: 'Muli-400';
+}
+
+.font-muli-extrabold{
+    font-family: 'Muli-800';
+}
+
+.font-muli-semibold{
+    font-family: 'Muli-600';
+}
+
+.font-mangal{
+    font-family: 'Mangal';
+    font-weight: normal;
+}

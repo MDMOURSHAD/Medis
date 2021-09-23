@@ -1,0 +1,54 @@
+
+@media (max-width: 1599px) {
+
+}
+
+@media (max-width: 1399px) {
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+  /*
+  ===================================
+  Start Toggle Search Bar
+  ===================================
+  */
+  .search-field {
+    padding: 8px 8px;
+    width: 280px;
+  }
+  .search-field form {
+    padding: 4px 4px;
+  }
+  /*
+  ===================================
+  End Toggle Search Bar
+  ===================================
+  */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
