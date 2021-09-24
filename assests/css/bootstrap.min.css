@@ -6038,7 +6038,7 @@ fieldset:disabled .btn {
 .end-100 {
     right: 100% !important;
 }
-.translate-middle {
+.translate-middle{
     transform: translate(-50%, -50%) !important;
 }
 .translate-middle-x {

@@ -53,17 +53,17 @@
 		<header>
 
 		<!-- Header Top-->
-		<div class="header-top bg-color-08 py-20">
+		<div class="header-top bg-color-08 py-20 px-xs-15">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-xl-6">
-						<ul class="header-top-contact">
+					<div class="col-md-6">
+						<ul class="header-top-contact text-center text-md-start">
 							<li class="d-inline-block font-size-13 font-color-ff font-muli-regular">Value at your desk.</li>
 							<li class="d-inline-block"><a class="font-size-13 font-color-ff font-muli-regular" href="#">contact us →</a></li>
 						</ul>
 					</div>
-					<div class="col-xl-6">
-						<ul class="header-top-help text-end">
+					<div class="col-md-6">
+						<ul class="header-top-help text-center text-md-end">
 							<li class="d-inline-block"><a class="pe-10 font-muli-regular font-size-13 font-color-ff" href="#">Help desk</a></li>
 							<li class="d-inline-block"><a class="position-relative emergency font-muli-regular font-size-13 font-color-ff" href="#">Emergency</a></li>
 							<li class="d-inline-block"><a class="ps-10 font-muli-regular font-size-13 font-color-ff" href="#">Contact</a></li>
@@ -73,13 +73,13 @@
 			</div>
 		</div>
 		<!-- Navbar -->
-		<nav class="py-25">
+		<nav class="py-25 px-xs-15">
 			<div class="container">
-				<div class="logo-menu d-flex justify-content-between align-items-center">
+				<div class="logo-menu d-flex justify-content-between align-items-center position-relative">
 					<div class="logo-area">
 						<a href="index.html"><img src="assests/images/logo.png" class="img-fluid"></a>
 					</div>
-					<div class="main-menu">
+					<div class="main-menu d-none d-lg-block">
 						<ul>
 							<li class="d-inline-block me-25"><a class="font-size-16 font-color-08 font-muli-semibold" href="#">Home</a></li>
 							<li class="d-inline-block me-25"><a class="font-size-16 font-color-08 font-muli-semibold" href="#">Departments</a></li>
@@ -102,19 +102,46 @@
 							</li>             
 						</ul>
 					</div>
+					<!-- Search Bar From Large Device -->
+					<div class="search-wrapper d-lg-none">
+						<span class="icon-magnifying-glass search-icon font-color-08"></span>
+						<div class="search-field">
+							<form>
+								<input type="text" name="text" placeholder="Search..." autocomplete="off">
+								<input type="submit" value="Go">
+							</form>
+						</div>
+					</div>
+					<!-- MOBILE MENU -->
+					<div class="mobile-menu">
+						<div class="hamburger-menu">
+							<div class="line line-1"></div>
+							<div class="line line-2"></div>
+							<div class="line line-3"></div>
+						</div>
+						<div class="nav-list">
+							<ul>
+								<li><a href="#" onclick="myFunction()">home</a></li>
+								<li><a href="#" onclick="myFunction()">about</a></li>
+								<li><a href="#" onclick="myFunction()">service</a></li>
+								<li><a href="#" onclick="myFunction()">blog</a></li>
+								<li><a href="#" onclick="myFunction()">contact</a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</nav>
 		<!-- Banner -->
-		<div class="banner-area">
+		<div class="banner-area px-xs-15">
 			<div class="container">
 				<div class="banner-content">
-					<div class="banner-text">
+					<div class="banner-text text-center text-md-start">
 						<span class="font-size-20 font-color-08 font-muli-bold">Health our doctors</span>
 						<h1 class="font-size-50 font-color-08 font-muli-black">Healthcare just for kids.
 						Saving children.</h1>
 						<p class="font-size-17 font-color-08 font-muli-semibold">Every day we bring hope to millions of children in the world's</p>
-						<a href="#" class="px-24 bg-color-ff8 font-color-ff">Make an appointments</a>
+						<a href="#" class="px-24 bg-color-ff8 font-size-17 font-color-ff">Make an appointments</a>
 					</div>
 				</div>
 			</div>
@@ -136,21 +163,21 @@
 			<section class="medical-health">
 				<div class="container">
 					<div class="row medical-health-row">
-						<div class="col-md-4 d-flex align-items-center">
-							<div class="medical-health-desc">
+						<div class="col-lg-4 col-md-12 d-flex align-items-center">
+							<div class="medical-health-desc  text-center text-lg-start">
 								<span class="font-muli-black font-size-18 font-color-08">Welcome to muntion</span>
-								<h2 class="font-muli-black mb-30 font-size-40 font-color-08 mt-10">The Best Medical Health Solution</h2>
-								<p class="font-muli-regular font-size-16 font-color-44 mb-45">Lorem ipsum dolor sit amet, cadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								<h2 class="mx-auto mx-lg-0 font-muli-black mb-30 font-size-40 font-color-08 mt-10">The Best Medical Health Solution</h2>
+								<p class="mx-auto mx-lg-0 font-muli-regular font-size-16 font-color-44 mb-45">Lorem ipsum dolor sit amet, cadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 								<a class="bg-color-ff8 font-muli-bold font-size-16 font-color-ff" href="#">Descover more →<i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="medical-health-box">
+						<div class="col-lg-4 col-md-6 mb-xs-30">
+							<div class="medical-health-box  text-center text-sm-start">
 								<div class="health-box-img1 position-relative overflow-hidden">
 									<div class="bg-overlay bg-overlay1">
 									</div>
 								</div>
-								<div class="health-box-desc ps-35 pt-25 position-relative">
+								<div class="health-box-desc px-xs-20 ps-35 pt-25 position-relative">
 									<h3 class="font-size-20 font-muli-extrabold font-color-08">How do I get a refill on my prescription?</h3>
 									<p class="font-muli-regular font-size-16 font-color-44">Lorem ipsum dolor sit amconet dipisicing elit, sed do eiusmod tempor</p>
 									<a class="font-muli-semibold font-size-14 font-color-44" href="#">Discover more →<i class="fa fa-long-arrow-right"></i></a>
@@ -158,13 +185,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-lg-4 col-md-6">
 							<div class="medical-health-box">
 								<div class="health-box-img2 overflow-hidden position-relative">
 									<div class="bg-overlay bg-overlay2">
 									</div>
 								</div>
-								<div class="health-box-desc ps-35 pt-25 position-relative">
+								<div class="health-box-desc px-xs-20 text-center text-sm-start ps-35 pt-25 position-relative">
 									<h3 class="font-size-20 font-muli-extrabold font-color-08">Strong contacts refill on my
 									creative Solutions</h3>
 									<p class="font-muli-regular font-size-16 font-color-44">Lorem ipsum dolor sit amconet dipisicing elit, sed do eiusmod tempor</p>
@@ -207,7 +234,7 @@
 							</div>
 						</div>
 						<div class="departments-right-col">
-							<div class="departments-desc">
+							<div class="departments-desc text-center text-sm-start">
 								<span class="font-muli-black font-size-18 font-color-ff">Learn about more</span>
 								<p class="mt-05 mb-60 font-muli-black font-size-40 font-color-ff">We are professional team, over 
 								25 years of experience passionate 
@@ -216,7 +243,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="service-mission">
+					<div class="service-mission text-center text-sm-start px-xs-15">
 						<ul>
 							<li class="d-inline-block me-05"><a href="#" class="bg-color-ff font-size-16 font-color-08 font-muli-extrabold text-uppercase">our service</a></li>
 							<li class="d-inline-block"><a href="#" class="bg-color-08 font-size-16 font-color-ff font-muli-extrabold text-uppercase">our service</a></li>
@@ -240,19 +267,19 @@
 			<section class="research-solution pt-90">
 				<div class="container">
 					<div class="row research-solution-row">
-						<div class="col-xl-4">
-							<div class="research-solution-desc">
+						<div class="col-lg-4 d-flex align-items-center align-items-xl-start">
+							<div class="research-solution-desc text-center text-lg-start">
 								<span class="font-muli-black font-size-18 font-color-08">Our provied service</span>
-								<h3 class="font-muli-black font-size-40 mb-30 font-color-08">The Best madical Research Solution health service</h3>
-								<p class="mb-35 font-muli-regular font-size-16 font-color-44">Services designed to provide you with in-depth knowledge needed to make complex  decisions in your business. From competitor research for a growing startup to multi-year financial analytics for an investment firm.</p>
+								<h3 class="font-muli-black mx-auto mx-lg-0 font-size-40 mb-30 font-color-08">The Best madical Research Solution health service</h3>
+								<p class="mb-35 font-muli-regular mx-auto mx-lg-0 font-size-16 font-color-44">Services designed to provide you with in-depth knowledge needed to make complex  decisions in your business. From competitor research for a growing startup to multi-year financial analytics for an investment firm.</p>
 								<a class="font-muli-bold font-size-20 font-color-08" href="#">Service more →</a>
 							</div>
 						</div>
-						<div class="col-xl-8">
+						<div class="col-lg-8">
 							<div class="row service-row">
-								<div class="col-xl-6">
-									<div class="service-box position-relative">
-										<div class="img-title d-flex align-items-center">
+								<div class="col-md-6 px-xs-0">
+									<div class="service-box text-center text-lg-start position-relative">
+										<div class="img-title d-flex flex-column flex-lg-row  align-items-center">
 											<div class="img-box me-15">
 												<img src="assests/images/service1.png" class="img-fluid" alt="service">
 											</div>
@@ -263,9 +290,9 @@
 										<p class="font-muli-regular font-size-16 font-color-44">Services competitor research forgrowing startup to multi-year financial</p>
 									</div>
 								</div>
-								<div class="col-xl-6">
-									<div class="service-box position-relative">
-										<div class="img-title d-flex align-items-center">
+								<div class="col-md-6 px-xs-0">
+									<div class="service-box text-center text-lg-start position-relative">
+										<div class="img-title d-flex flex-column flex-lg-row  align-items-center">
 											<div class="img-box me-15">
 												<img src="assests/images/service2.png" class="img-fluid" alt="service">
 											</div>
@@ -276,9 +303,9 @@
 										<p class="font-muli-regular font-size-16 font-color-44">Services competitor research forgrowing startup to multi-year financial</p>
 									</div>
 								</div>
-								<div class="col-xl-6">
-									<div class="service-box position-relative">
-										<div class="img-title d-flex align-items-center">
+								<div class="col-md-6 px-xs-0">
+									<div class="service-box text-center text-lg-start position-relative">
+										<div class="img-title d-flex flex-column flex-lg-row align-items-center">
 											<div class="img-box me-15">
 												<img src="assests/images/service3.png" class="img-fluid" alt="service">
 											</div>
@@ -289,9 +316,9 @@
 										<p class="font-muli-regular font-size-16 font-color-44">Services competitor research forgrowing startup to multi-year financial</p>
 									</div>
 								</div>
-								<div class="col-xl-6">
-									<div class="service-box position-relative">
-										<div class="img-title d-flex align-items-center">
+								<div class="col-md-6 px-xs-0">
+									<div class="service-box text-center text-lg-start position-relative">
+										<div class="img-title d-flex flex-column flex-lg-row align-items-center">
 											<div class="img-box me-15">
 												<img src="assests/images/service4.png" class="img-fluid" alt="service">
 											</div>
@@ -320,13 +347,13 @@
 			-->
 			<section class="team-section pt-60">
 				<div class="container position-relative">
-					<div class="team-tiltle text-center mx-auto">
+					<div class="team-tiltle px-xs-15 text-center mx-auto">
 						<span class="font-muli-black font-size-18 font-color-ff">Our team membar</span>
 						<h2 class="font-color-ff font-muli-black mt-15 mb-25 font-size-40">We have quality complete expert reviews in our company</h2>
-						<p class="font-muli-regular font-color-ff font-size-ff">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun labore etdolore magna aliqua. Ut enim ad minim veniam, </p>
+						<p class="font-muli-regular font-color-ff font-size-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun labore etdolore magna aliqua. Ut enim ad minim veniam, </p>
 					</div>
 					<div class="row team-row position-absolute">
-						<div class="col-md-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="team-image position-relative">
 							 	<img src="assests/images/Doctor_01.jpg" class="img-fluid" alt="Doctor">
 							 	<div class="designation-overlay transition-5s-ease d-flex flex-column align-items-center justify-content-center position-absolute">
@@ -342,7 +369,7 @@
 							 	</div>	
 							</div>	 
 						</div>
-						<div class="col-md-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="team-image position-relative">
 							 	<img src="assests/images/Doctor_02.jpg" class="img-fluid" alt="Doctor">
 							 	<div class="designation-overlay transition-5s-ease d-flex flex-column align-items-center justify-content-center position-absolute">
@@ -358,7 +385,7 @@
 							 	</div>	
 							</div>	 
 						</div>
-						<div class="col-md-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="team-image position-relative">
 							 	<img src="assests/images/Doctor_03.jpg" class="img-fluid" alt="Doctor">
 							 	<div class="designation-overlay transition-5s-ease d-flex flex-column align-items-center justify-content-center position-absolute">
@@ -374,7 +401,7 @@
 							 	</div>	
 							</div>	 
 						</div>
-						<div class="col-md-3">
+						<div class="col-lg-3 col-md-6">
 							<div class="team-image position-relative">
 							 	<img src="assests/images/Doctor_04.jpg" class="img-fluid" alt="Doctor">
 							 	<div class="designation-overlay transition-5s-ease d-flex flex-column align-items-center justify-content-center position-absolute">
@@ -401,7 +428,6 @@
 			End Team Section
 			========================================
 			-->
-
 
 			<!-- 
 			========================================
@@ -470,27 +496,27 @@
 			<section class="counter-up py-50 position-relative bg-color-f7">
 				<div class="container">
 					<div class="row counter-row">
-						<div class="col-md-3">
+						<div class="col-md-6 col-lg-3">
 							<div class="counter-content text-center">
-								<span class="font-muli-bold font-size-60 font-color-08">500+</span>
+								<span class="counter font-muli-bold font-size-60 font-color-08 ">500</span>
 								<span class="font-muli-black font-size-18 font-color-44">Satisfied Patients</span>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<div class="counter-content text-center">
-								<span class=" font-muli-bold font-size-60 font-color-08">260+</span>
+						<div class="col-md-6 col-lg-3">
+							<div class="-content text-center">
+								<span class=" counter font-muli-bold font-size-60 font-color-08">260</span>
 								<span class="font-muli-black font-size-18 font-color-44">M.B.B.S Doctor</span>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<div class="counter-content text-center">
-								<span class=" font-muli-bold font-size-60 font-color-08">816+</span>
+						<div class="col-md-6 col-lg-3">
+							<div class="-content text-center">
+								<span class=" counter font-muli-bold font-size-60 font-color-08 ">816</span>
 								<span class="font-muli-black font-size-18 font-color-44">Successful Patient</span>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<div class="counter-content text-center">
-								<span class=" font-muli-bold font-size-60 font-color-08">240+</span>
+						<div class="col-md-6 col-lg-3">
+							<div class="-content text-center"> 
+								<span class=" counter font-muli-bold font-size-60 font-color-08">240</span>
 								<span class="font-muli-black font-size-18 font-color-44">Successfull Surgeries</span>
 							</div>
 						</div>
@@ -583,19 +609,19 @@
 			Start Blog Section
 			========================================
 			-->
-			<section class="blog-section py-50">
+			<section class="blog-section pt-50">
 				<div class="container">
-					<div class="blog-tiltle text-center mx-auto">
+					<div class="blog-tiltle px-xs-15 text-center mx-auto">
 						<span class="font-muli-black font-size-18 font-color-08">Meet our blog</span>
 						<h2 class="font-color-08 font-muli-black mt-10 font-size-40">We have provided news updates on some of our new systems</h2>
 					</div>
 					<div class="row blog-row">
-						<div class="col-md-4">
+						<div class="col-lg-4 col-md-6">
 							<div class="blog-item">
 								<div class="blog-item-img">
 									<img src="assests/images/blog-1.jpg" alt="blog" class="img-fluid">
 								</div>
-								<div class="blog-item-desc px-25 position-relative">
+								<div class="blog-item-desc text-center text-sm-start px-25 position-relative">
 									<div class="date transition-3s-ease bg-color-08 text-center position-absolute">
 										<span class="font-muli-black d-block font-size-20 font-color-ff">15</span>
 										<span class="font-muli-extrabold d-block font-size-16 font-color-ff">Oct</span>
@@ -606,12 +632,12 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-lg-4 col-md-6">
 							<div class="blog-item">
 								<div class="blog-item-img">
 									<img src="assests/images/blog-2.jpg" alt="blog" class="img-fluid">
 								</div>
-								<div class="blog-item-desc px-25 position-relative">
+								<div class="blog-item-desc text-center text-sm-start px-25 position-relative">
 									<div class="date transition-3s-ease bg-color-08 text-center position-absolute">
 										<span class="font-muli-black d-block font-size-20 font-color-ff">20</span>
 										<span class="font-muli-extrabold d-block font-size-16 font-color-ff">Oct</span>
@@ -622,12 +648,12 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-lg-4 col-md-6 mx-auto mx-lg-0">
 							<div class="blog-item">
 								<div class="blog-item-img">
 									<img src="assests/images/blog-3.jpg" alt="blog" class="img-fluid">
 								</div>
-								<div class="blog-item-desc px-25 position-relative">
+								<div class="blog-item-desc text-center text-sm-start px-25 position-relative">
 									<div class="date transition-3s-ease bg-color-08 text-center position-absolute">
 										<span class="font-muli-black d-block font-size-20 font-color-ff">22</span>
 										<span class="font-muli-extrabold d-block font-size-16 font-color-ff">Oct</span>
@@ -655,22 +681,21 @@
 			<section class="apartments">
 				<div class="container">
 					<div class="row apartments-row">
-						<div class="col-md-7">
-							<div class="apartments-details">
+						<div class="col-lg-7 col-md-6">
+							<div class="apartments-details text-center text-md-start">
 								<span class="font-muli-black font-size-18 font-color-ff">Get in touch</span>
 								<h2 class="mt-05 font-muli-black font-size-40 font-color-ff">Some of your questions are very serious for us feel free ask our any time?</h2>
 								<p class="font-muli-regular font-size-16 font-color-ff">We are here to assist you with your cooperation in the 24/7 day. 
 								are we ready to respond to you by following the information sent 
 								to you at the appropriate price. Thank you</p>
-								<p class="mt-10 mb-15 font-muli-regular font-size-16 font-color-ff">If you can not reply to a serious cause, please contact the numbare below</p>
+								<p class="mt-10 mb-15 font-muli-regular mx-auto mx-md-0 font-size-16 font-color-ff">If you can not reply to a serious cause, please contact the numbare below</p>
 								<div class="phone">
-									<i class="fas fa-phone-alt font-size-16 font-color-ff8"></i>
-									<span class="ms-05 font-muli-extrabold font-size-16 font-color-ff8">+999 695 698 895</span>
+									<a class="ms-05 font-muli-extrabold font-size-16 font-color-ff8" href="#"><i class="fas fa-phone-alt font-size-16 font-color-ff8"></i> +999 695 698 895</a>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-5">
-							<div class="apartments-form pt-65 px-35 pb-80">
+						<div class="col-lg-5 col-md-6">
+							<div class="apartments-form text-center text-sm-start pt-65 px-35 pb-80">
 								<span class="font-muli-black font-size-30 font-color-ff">Aepartments</span>
 								<p class="font-muli-semibold font-size-16 font-color-ff">Clinic health are available 24/7</p>
 								<form class="pt-25">
@@ -714,17 +739,17 @@
 		Start Footer Section
 		========================================
 		-->
-		<footer class="fotter-section py-100">
+		<footer class="fotter-section pt-95 pb-20">
 			<div class="container">
 				<div class="row footer-row">
-					<div class="col-xl-4">
+					<div class="col-xl-4 col-lg-3 col-md-6">
 						<div class="footer-desc">
 							<a href="#"><img src="assests/images/logo.png" class="img-fluid" alt="footer-logo"></a>
 							<p class="mt-30 mb-20 font-muli-regular font-size-16 font-color-44">The health Clinic provides health service to relieve your pain. Urgent care pertains to immediate treatment to stabilise an acute and debilitating health situation.a situation is deemed ‘urgent’ upon diagnosis of health infection</p>
 							<a href="#" class="font-muli-bold font-size-20 font-color-08">Read more →</a>
 						</div>
 					</div>
-					<div class="col-xl-2">
+					<div class="col-xl-2 col-lg-3 col-md-6">
 						<div class="services-link">
 							<a href="#" class="font-muli-black mb-25 font-size-20 font-color-44 footer-title">Our services</a>
 							<ul>
@@ -738,24 +763,24 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xl-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="recent-post">
 							<a href="#" class="font-muli-black mb-25 font-size-20 font-color-44 footer-title">Recent post</a>
-							<div class="post-item pb-10">
+							<div class="post-item d-flex flex-column pb-10">
 								<a href="#" class="font-muli-extrabold font-size-16 font-color-08">What you need to know about wisdom</a>
 								<span class="font-muli-regular font-size-13 font-color font-color-44">October 25, 2018 </span>
 							</div>
-							<div class="post-item post-border ">
+							<div class="post-item d-flex flex-column post-border ">
 								<a href="#" class="font-muli-extrabold font-size-16 font-color-08">What you need to know about wisdom</a>
 								<span class="font-muli-regular font-size-13 font-color font-color-44">October 25, 2018 </span>
 							</div>
-							<div class="post-item pt-10">
+							<div class="post-item d-flex flex-column pt-10">
 								<a href="#" class="font-muli-extrabold font-size-16 font-color-08">What you need to know about wisdom</a>
 								<span class="font-muli-regular font-size-13 font-color font-color-44">October 25, 2018 </span>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3">
+					<div class="col-lg-3 col-md-6">
 						<div class="newslatter">
 							<a href="#" class="font-muli-black mb-25 font-size-20 font-color-44 footer-title">Newslatter</a>
 							<p class="font-muli-regular mb-20 font-size-16 font-color-44">Lorem ipsum dolor sit aconsectetur adipisicing elit eiusmte incididunt ut labore et dolore magna</p>
@@ -784,7 +809,6 @@
 				</div>
 			</div>
 		</footer>
-
 		<!-- 
 		========================================
 		End Footer Section
@@ -808,17 +832,28 @@
 		-->
 	
 		<!-- Js Files -->
-		<script src="assests/js/jquery-1.12.4.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="assests/js/bootstrap.min.js"></script>
 		<script src="assests/js/jquery.magnific-popup.min.js"></script>
-		<script src="assests/js/waypoints.min.js"></script>
-		<script src="assests/js/jquery.counterup.min.js"></script>
+	
 		<script src="assests/js/accordion.min.js"></script>
 		<script src="assests/js/jquery.nice-select.min.js"></script>
-		<script src="assests/js/main.js"></script>
-		<script>
 
-			
+
+		<script src="assests/js/main.js"></script>
+
+		
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<script src="assests/js/jquery.counterup.min.js"></script>
+
+		<script>
+			jQuery(document).ready(function ($) {
+				$('.counter').counterUp({
+					delay: 10,
+					time: 1000
+				});
+			});
 		</script>
+		
 	</body>
 </html>

@@ -1,25 +1,644 @@
 
-@media (max-width: 1599px) {
-
-}
-
-@media (max-width: 1399px) {
-
-}
-
 @media (max-width: 1199px) {
+
+  /*
+  ========================================
+  Start Medical Health Section Css
+  ========================================
+  */
+  .medical-health-desc h2{
+    font-size: 35px;
+  }
+  .medical-health-desc p{
+    margin-bottom: 35px;
+  }
+  /*
+  ========================================
+  End Medical Health Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Departments Section Css
+  ========================================
+  */
+  .departments-row{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .departments-row > *{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+  .departments-left-col{
+    width: 41.6666666667%;
+  }
+  .departments-right-col {
+    width: 58.3333333333%;
+  }
+  .departments-desc p{
+    margin-bottom: 45px;
+  }
+  /*
+  ========================================
+  End Departments Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Research Solution Section Css
+  ========================================
+  */
+  .research-solution-desc h3{
+    font-size: 34px;
+  }
+  /*
+  ========================================
+  End Research Solution Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Performence Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Performence Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Faq Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Faq Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Blog Section Css
+  ========================================
+  */
+  .blog-item-title{
+      font-size: 17px;
+  }
+  /*
+  ========================================
+  End Blog Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Apartments Section Css
+  ========================================
+  */
+  .apartments-form {
+    margin-left: 0px;
+  }
+  .apartments-details P:first-of-type {
+    width: 86%;
+  }
+  .apartments-details P:last-of-type {
+    width: 53%;
+  }
+  /*
+  ========================================
+  End Apartments Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Footer Section Css
+  ========================================
+  */
+  .footer-desc p{
+    font-size: 13px;
+  }
+  /*
+  ========================================
+  End Footer Section Css
+  ========================================
+  */
 
 }
 
 @media (max-width: 991px) {
 
+    /*
+  ========================================
+  Start Reusable Components
+  ========================================
+  */
+  /*
+  ========================================
+  End Reusable Components
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Header Section Css
+  ========================================
+  */
+
+  /*
+  ===================================
+  Start Toggle Search Bar
+  ===================================
+  */
+  .search-wrapper {
+    margin-left: auto;
+    margin-right: 50px;
+    cursor: pointer;
+  }
+  /*
+  ===================================
+  End Toggle Search Bar
+  ===================================
+  */
+  /*
+  ======================
+  MOBILE MENU             
+  ======================                      
+  */
+  .mobile-menu{
+    display:block !important;
+  }
+  /*
+  ======================
+  MOBILE MENU             
+  ======================                      
+  */
+  /*
+  ===================================
+  Start Banner Css
+  ===================================
+  */
+  .banner-text h1 {
+    width: 72%;
+  }
+  /*
+  ===================================
+  End Banner Css
+  ===================================
+  */
+  /*
+  ========================================
+  End Header Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Medical Health Section Css
+  ========================================
+  */
+  .medical-health {
+    padding-bottom: 119px;
+  }
+  .medical-health-row > * {
+    margin-bottom: 60px;
+  }
+  .medical-health-desc h2{
+    width: 60%;
+  }
+   .medical-health-desc p {
+    width: 82%;
+  }
+  /*
+  ========================================
+  End Medical Health Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Departments Section Css
+  ========================================
+  */
+   .departments-container {
+    padding-bottom: 100px;
+  }
+  .departments-item {
+    margin-top: -70px;
+  }
+  .departments-desc{
+    margin-top: 80px;
+  }
+  .departments-desc p {
+    margin-bottom:30px;
+    font-size: 36px;
+  }
+  /*
+  ========================================
+  End Departments Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Research Solution Section Css
+  ========================================
+  */
+  .research-solution {
+    padding-bottom: 70px;
+  }
+   .research-solution-desc h3{
+    width: 83%;
+  }
+   .research-solution-desc p {
+    width: 84%;
+  }
+  .apartments-details P:last-of-type {
+    width: 83%;
+  }
+  .service-box {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  .img-title .img-box{
+    margin-bottom: 20px;
+  }
+  /*
+  ========================================
+  End Research Solution Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Team Section Css
+  ========================================
+  */
+  .team-row{
+    position: static !important;
+    margin-top: 60px;
+  }
+  .team-section .container {
+    padding-bottom: 120px;
+  }
+  .team-row > *{
+    margin-bottom: 30px;
+  }
+  .team-image img{
+    width: 100%;
+  }
+  .member-more{
+    margin-top: 50px;
+  }
+  /*
+  ========================================
+  End Team Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Performence Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Performence Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Counter Up Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Counter Up Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Faq Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Faq Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Blog Section Css
+  ========================================
+  */
+  .blog-tiltle h2{
+    font-size: 35px;
+  }
+  /*
+  ========================================
+  End Blog Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Apartments Section Css
+  ========================================
+  */
+  .apartments-details {
+    padding-top: 80px;
+  }
+  .apartments-details h2{
+    font-size: 31px;
+  }
+  .apartments-details P:first-of-type {
+    width: 100%;
+  }
+  /*
+  ========================================
+  End Apartments Section Css
+  ========================================
+  */
 }
 
 @media (max-width: 767px) {
+  /*
+  ========================================
+  Start Reusable Components
+  ========================================
+  */
+  .px-sm-20{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*
+  ========================================
+  End Reusable Components
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Header Section Css
+  ========================================
+  */ 
+  .header-top {
+    padding-bottom: 12px;
+    padding-top: 12px;
+  }
+  /*
+  ===================================
+  Start Banner Css
+  ===================================
+  */
+  .banner-text h1 {
+    width: 100%;
+    font-size: 44px;
+  }
+  /*
+  ===================================
+  End Banner Css
+  ===================================
+  */
+  /*
+  ========================================
+  End Header Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Medical Health Section Css
+  ========================================
+  */
+  .medical-health-desc h2 {
+    font-size: 35px;
+    width: 80%;
+  }
+  .medical-health-desc p {
+    width: 100%;
+  }
+  /*
+  ========================================
+  End Medical Health Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Departments Section Css
+  ========================================
+  */
+  .departments-row{
+    flex-wrap: wrap;
+  }
+  .departments-left-col {
+    width: 58.3333333333%;
+  }
+  .departments-right-col{
+    width: 100%;
+  }
+  .departments-desc {
+    margin-top: 40px;
+  }
+  /*
+  ========================================
+  End Departments Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Research Solution Section Css
+  ========================================
+  */
+  .research-solution-desc p {
+    width: 90%;
+  }
+  .service-box{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  /*
+  ========================================
+  End Research Solution Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Team Section Css
+  ========================================
+  */
+  .team-tiltle {
+    width: 100%;
+  }
+  .team-tiltle h2{
+    width: 90%;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*
+  ========================================
+  End Team Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Performence Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Performence Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Counter Up Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Counter Up Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Faq Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Faq Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Blog Section Css
+  ========================================
+  */
+  .blog-section {
+    padding-bottom: 80px;
+  }
+  .blog-tiltle {
+    width: 80%;
+  }
+  .blog-tiltle h2{
+    font-size: 30px;
+  }
+  .blog-item-img img{
+    width: 100%;
+  }
+  .blog-item-title {
+    font-size: 20px;
+  }
+  .blog-item-desc p {
+    margin-top: 20px;
+  }
+  /*
+  ========================================
+  End Blog Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Apartments Section Css
+  ========================================
+  */
+  .apartments-details h2 {
+    font-size: 27px;
+  }
+  /*
+  ========================================
+  End Apartments Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Footer Section Css
+  ========================================
+  */
+  .footer-desc p {
+    font-size: 17px;
+  }
+  .recent-post{
+   width: 58.3333333333%;
+  }
+  .post-item  a{
+    font-size: 18px;
+  }
+  .post-item span{
+    margin-top: 15px;
+  }
+  .newslatter {
+    width: 50%;
+  }
+  /*
+  ========================================
+  End Footer Section Css
+  ========================================
+  */
 
 }
 
 @media (max-width: 575px) {
+
+  /*
+  ========================================
+  Start Reusable Components
+  ========================================
+  */
+   .px-xs-0{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .px-xs-15{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .px-xs-20{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .mb-xs-30{
+    margin-bottom: 30px;
+  }
+  /*
+  ========================================
+  End Reusable Components
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Header Section Css
+  ========================================
+  */
+  .logo-area img {
+    width: 150px;
+  }
+  nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   /*
   ===================================
   Start Toggle Search Bar
@@ -31,6 +650,309 @@
   }
   .search-field form {
     padding: 4px 4px;
+  }
+  .search-field {
+    top: 38px;
+    right: 2px;
+  }
+  /*
+  ===================================
+  End Toggle Search Bar
+  ===================================
+  */
+
+  /*
+  ======================
+  MOBILE MENU                         
+  ======================                      
+  */
+  .mobile-menu .nav-list {
+      right: -100%;
+      width: 100%;
+  }
+  /*
+  ======================
+  MOBILE MENU                         
+  ======================                      
+  */
+
+  /*
+  ===================================
+  Start Banner Css
+  ===================================
+  */
+  .banner-content{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .banner-text h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .banner-text a {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+  }
+  /*
+  ===================================
+  End Banner Css
+  ===================================
+  */
+
+  /*
+  ========================================
+  End Header Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Medical Health Section Css
+  ========================================
+  */
+  .medical-health-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .medical-health-desc h2 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .medical-health-desc p {
+    font-size: 14px;
+  }
+
+  /*
+  ========================================
+  End Medical Health Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Departments Section Css
+  ========================================
+  */
+  .departments-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .departments-left-col {
+    width: 100%;
+  }
+  .departments-item {
+    margin-top: -70px;
+  }
+  .departments-desc p {
+    font-size: 26px;
+    line-height: 33px;
+  }
+  .departments-desc a {
+    font-size: 18px;
+  }
+  .service-mission{
+    width: 100%;
+  }
+  .service-mission ul li a {
+    padding: 20px 15px;
+    line-height: 0px;
+  }
+  /*
+  ========================================
+  End Departments Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Research Solution Section Css
+  ========================================
+  */
+  .research-solution-row, .service-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .research-solution-desc h3 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .research-solution-desc p{
+    font-size: 14px;
+  }
+  /*
+  ========================================
+  End Research Solution Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Team Section Css
+  ========================================
+  */
+  .team-tiltle h2 {
+    width: 100%;
+    font-size: 24px;
+  }
+  .team-tiltle p{
+    font-size: 14px;
+  }
+  .team-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .member-more {
+    margin-top: 25px;
+  }
+  .member-more a {
+    padding-top: 9px;
+    padding-bottom: 11px;
+    font-size: 15px;
+  }
+
+  /*
+  ========================================
+  End Team Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Performence Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Performence Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Counter Up Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Counter Up Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Faq Section Css
+  ========================================
+  */
+  /*
+  ========================================
+  End Faq Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Blog Section Css
+  ========================================
+  */
+  .blog-tiltle {
+    width: 100%;
+  }
+  .blog-tiltle h2 {
+    font-size: 25px;
+  }
+  .blog-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .blog-item-title {
+    margin-left: 0px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+  .blog-item-desc p {
+    margin-top: 15px;
+  }
+  /*
+  ========================================
+  End Blog Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Apartments Section Css
+  ========================================
+  */
+  .apartments-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .apartments-details h2 {
+    font-size: 22px;
+  }
+  .apartments-details P:last-of-type {
+    width: 100%;
+  }
+  .phone a {
+    margin-left: 0px;
+  }
+  .apartments-form {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .apartments-form p{
+    font-size: 14px;
+  }
+  .apartments-form form input[type="submit"] {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    line-height: 0px;
+    font-size: 14px;
+  }
+  /*
+  ========================================
+  End Apartments Section Css
+  ========================================
+  */
+
+  /*
+  ========================================
+  Start Footer Section Css
+  ========================================
+  */
+  .footer-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .recent-post {
+    width: 75%;
+  }
+  /*
+  ========================================
+  End Footer Section Css
+  ========================================
+  */
+
+
+}
+
+@media (max-width: 575px) {
+   /*
+  ===================================
+  Start Toggle Search Bar
+  ===================================
+  */
+  .search-field {
+    width: 245px;
+  }
+  .search-field form input[type="text"] {
+    width: 70%;
+  }
+  .search-field form input[type="submit"] {
+    width: 30%;
   }
   /*
   ===================================
