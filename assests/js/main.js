@@ -46,6 +46,19 @@ $(document).ready(function(){
 		$('.search-field').toggleClass('active');
 	});
 
+	// Sticky Menu
+	$(window).scroll(function(){
+
+		if($(this).scrollTop() > 100){
+			$('.nav').addClass('sticky');
+		}
+
+		else{
+			$('.nav').removeClass('sticky');
+		}
+
+	});
+
 	// Magnific Popup Video
 	$('.free_video_popup').magnificPopup({
 		type: 'iframe',

@@ -1,15 +1,13 @@
-
 @media (max-width: 1199px) {
-
   /*
   ========================================
   Start Medical Health Section Css
   ========================================
   */
-  .medical-health-desc h2{
+  .medical-health-desc h2 {
     font-size: 35px;
   }
-  .medical-health-desc p{
+  .medical-health-desc p {
     margin-bottom: 35px;
   }
   /*
@@ -23,22 +21,22 @@
   Start Departments Section Css
   ========================================
   */
-  .departments-row{
+  .departments-row {
     margin-left: -15px;
     margin-right: -15px;
   }
-  .departments-row > *{
+  .departments-row > * {
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 30px;
   }
-  .departments-left-col{
+  .departments-left-col {
     width: 41.6666666667%;
   }
   .departments-right-col {
     width: 58.3333333333%;
   }
-  .departments-desc p{
+  .departments-desc p {
     margin-bottom: 45px;
   }
   /*
@@ -52,7 +50,7 @@
   Start Research Solution Section Css
   ========================================
   */
-  .research-solution-desc h3{
+  .research-solution-desc h3 {
     font-size: 34px;
   }
   /*
@@ -88,8 +86,8 @@
   Start Blog Section Css
   ========================================
   */
-  .blog-item-title{
-      font-size: 17px;
+  .blog-item-title {
+    font-size: 17px;
   }
   /*
   ========================================
@@ -122,7 +120,7 @@
   Start Footer Section Css
   ========================================
   */
-  .footer-desc p{
+  .footer-desc p {
     font-size: 13px;
   }
   /*
@@ -130,12 +128,10 @@
   End Footer Section Css
   ========================================
   */
-
 }
 
 @media (max-width: 991px) {
-
-    /*
+  /*
   ========================================
   Start Reusable Components
   ========================================
@@ -172,8 +168,8 @@
   MOBILE MENU             
   ======================                      
   */
-  .mobile-menu{
-    display:block !important;
+  .mobile-menu {
+    display: block !important;
   }
   /*
   ======================
@@ -210,10 +206,10 @@
   .medical-health-row > * {
     margin-bottom: 60px;
   }
-  .medical-health-desc h2{
+  .medical-health-desc h2 {
     width: 60%;
   }
-   .medical-health-desc p {
+  .medical-health-desc p {
     width: 82%;
   }
   /*
@@ -227,17 +223,17 @@
   Start Departments Section Css
   ========================================
   */
-   .departments-container {
+  .departments-container {
     padding-bottom: 100px;
   }
   .departments-item {
     margin-top: -70px;
   }
-  .departments-desc{
+  .departments-desc {
     margin-top: 80px;
   }
   .departments-desc p {
-    margin-bottom:30px;
+    margin-bottom: 30px;
     font-size: 36px;
   }
   /*
@@ -254,10 +250,10 @@
   .research-solution {
     padding-bottom: 70px;
   }
-   .research-solution-desc h3{
+  .research-solution-desc h3 {
     width: 83%;
   }
-   .research-solution-desc p {
+  .research-solution-desc p {
     width: 84%;
   }
   .apartments-details P:last-of-type {
@@ -267,7 +263,7 @@
     padding-right: 20px !important;
     padding-left: 20px !important;
   }
-  .img-title .img-box{
+  .img-title .img-box {
     margin-bottom: 20px;
   }
   /*
@@ -281,20 +277,20 @@
   Start Team Section Css
   ========================================
   */
-  .team-row{
+  .team-row {
     position: static !important;
     margin-top: 60px;
   }
   .team-section .container {
     padding-bottom: 120px;
   }
-  .team-row > *{
+  .team-row > * {
     margin-bottom: 30px;
   }
-  .team-image img{
+  .team-image img {
     width: 100%;
   }
-  .member-more{
+  .member-more {
     margin-top: 50px;
   }
   /*
@@ -330,6 +326,17 @@
   Start Faq Section Css
   ========================================
   */
+  .accordion-row > * {
+    margin-bottom: 30px;
+  }
+  .faq-title p {
+    width: 90%;
+  }
+  .title-accordion {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   /*
   ========================================
   End Faq Section Css
@@ -341,7 +348,7 @@
   Start Blog Section Css
   ========================================
   */
-  .blog-tiltle h2{
+  .blog-tiltle h2 {
     font-size: 35px;
   }
   /*
@@ -358,7 +365,7 @@
   .apartments-details {
     padding-top: 80px;
   }
-  .apartments-details h2{
+  .apartments-details h2 {
     font-size: 31px;
   }
   .apartments-details P:first-of-type {
@@ -377,7 +384,7 @@
   Start Reusable Components
   ========================================
   */
-  .px-sm-20{
+  .px-sm-20 {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -391,10 +398,14 @@
   ========================================
   Start Header Section Css
   ========================================
-  */ 
+  */
   .header-top {
     padding-bottom: 12px;
-    padding-top: 12px;
+    padding-top: 7px;
+  }
+  nav {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
   }
   /*
   ===================================
@@ -421,6 +432,10 @@
   Start Medical Health Section Css
   ========================================
   */
+  .medical-health {
+    padding-bottom: 90px;
+    padding-top: 60px;
+  }
   .medical-health-desc h2 {
     font-size: 35px;
     width: 80%;
@@ -439,13 +454,14 @@
   Start Departments Section Css
   ========================================
   */
-  .departments-row{
+  .departments-row {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .departments-left-col {
     width: 58.3333333333%;
   }
-  .departments-right-col{
+  .departments-right-col {
     width: 100%;
   }
   .departments-desc {
@@ -462,10 +478,14 @@
   Start Research Solution Section Css
   ========================================
   */
+  .research-solution {
+    padding-top: 55px !important;
+    padding-bottom: 10px !important;
+  }
   .research-solution-desc p {
     width: 90%;
   }
-  .service-box{
+  .service-box {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -480,14 +500,20 @@
   Start Team Section Css
   ========================================
   */
+  .team-section .container {
+    padding-bottom: 60px;
+  }
   .team-tiltle {
     width: 100%;
   }
-  .team-tiltle h2{
+  .team-tiltle h2 {
     width: 90%;
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .member-more {
+    margin-top: 30px;
   }
   /*
   ========================================
@@ -500,17 +526,38 @@
   Start Performence Section Css
   ========================================
   */
+  .performance-section {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
   /*
   ========================================
   End Performence Section Css
   ========================================
   */
-
+  .item-desc h3 {
+    margin-top: 15px;
+  }
+  .item-desc {
+    width: 77%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
   /*
   ========================================
   Start Counter Up Section Css
   ========================================
   */
+  .counter-up {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .custom-shape-divider-top-1632219884 svg {
+    height: 35px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
   /*
   ========================================
   End Counter Up Section Css
@@ -522,6 +569,9 @@
   Start Faq Section Css
   ========================================
   */
+  .title-accordion {
+    width: 100%;
+  }
   /*
   ========================================
   End Faq Section Css
@@ -539,10 +589,10 @@
   .blog-tiltle {
     width: 80%;
   }
-  .blog-tiltle h2{
+  .blog-tiltle h2 {
     font-size: 30px;
   }
-  .blog-item-img img{
+  .blog-item-img img {
     width: 100%;
   }
   .blog-item-title {
@@ -562,6 +612,9 @@
   Start Apartments Section Css
   ========================================
   */
+  .apartments {
+    padding-bottom: 50px;
+  }
   .apartments-details h2 {
     font-size: 27px;
   }
@@ -576,16 +629,19 @@
   Start Footer Section Css
   ========================================
   */
+  .fotter-section {
+    padding-top: 70px;
+  }
   .footer-desc p {
     font-size: 17px;
   }
-  .recent-post{
-   width: 58.3333333333%;
+  .recent-post {
+    width: 58.3333333333%;
   }
-  .post-item  a{
+  .post-item a {
     font-size: 18px;
   }
-  .post-item span{
+  .post-item span {
     margin-top: 15px;
   }
   .newslatter {
@@ -596,29 +652,27 @@
   End Footer Section Css
   ========================================
   */
-
 }
 
 @media (max-width: 575px) {
-
   /*
   ========================================
   Start Reusable Components
   ========================================
   */
-   .px-xs-0{
+  .px-xs-0 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .px-xs-15{
+  .px-xs-15 {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
-  .px-xs-20{
+  .px-xs-20 {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
-  .mb-xs-30{
+  .mb-xs-30 {
     margin-bottom: 30px;
   }
   /*
@@ -635,7 +689,7 @@
   .logo-area img {
     width: 150px;
   }
-  nav{
+  nav {
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -667,8 +721,8 @@
   ======================                      
   */
   .mobile-menu .nav-list {
-      right: -100%;
-      width: 100%;
+    left: -100%;
+    width: 100%;
   }
   /*
   ======================
@@ -681,7 +735,7 @@
   Start Banner Css
   ===================================
   */
-  .banner-content{
+  .banner-content {
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -751,7 +805,7 @@
   .departments-desc a {
     font-size: 18px;
   }
-  .service-mission{
+  .service-mission {
     width: 100%;
   }
   .service-mission ul li a {
@@ -769,7 +823,8 @@
   Start Research Solution Section Css
   ========================================
   */
-  .research-solution-row, .service-row {
+  .research-solution-row,
+  .service-row {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -777,7 +832,7 @@
     width: 100%;
     font-size: 30px;
   }
-  .research-solution-desc p{
+  .research-solution-desc p {
     font-size: 14px;
   }
   /*
@@ -795,7 +850,7 @@
     width: 100%;
     font-size: 24px;
   }
-  .team-tiltle p{
+  .team-tiltle p {
     font-size: 14px;
   }
   .team-row {
@@ -822,6 +877,16 @@
   Start Performence Section Css
   ========================================
   */
+  .performance-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .performance-title h2 {
+    font-size: 30px;
+  }
+  .item-desc {
+    width: 95%;
+  }
   /*
   ========================================
   End Performence Section Css
@@ -844,12 +909,16 @@
   Start Faq Section Css
   ========================================
   */
+
   /*
   ========================================
   End Faq Section Css
   ========================================
   */
-
+  .accordion-row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   /*
   ========================================
   Start Blog Section Css
@@ -903,7 +972,7 @@
     padding-left: 25px;
     padding-right: 25px;
   }
-  .apartments-form p{
+  .apartments-form p {
     font-size: 14px;
   }
   .apartments-form form input[type="submit"] {
@@ -928,19 +997,24 @@
     margin-right: 0px;
   }
   .recent-post {
-    width: 75%;
+    width: 100%;
+  }
+  .newslatter {
+    width: 100%;
+  }
+  .newslatter-form input[type="email"] {
+    padding-top: 5px;
+    padding-bottom: 8px;
   }
   /*
   ========================================
   End Footer Section Css
   ========================================
   */
-
-
 }
 
 @media (max-width: 575px) {
-   /*
+  /*
   ===================================
   Start Toggle Search Bar
   ===================================
@@ -960,17 +1034,3 @@
   ===================================
   */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
