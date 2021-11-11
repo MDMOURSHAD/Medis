@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -550,6 +557,8 @@ MOBILE MENU
 }
 
 .nav-list ul li a {
+  -webkit-transition:.3s ease-in-out;
+  -o-transition:.3s ease-in-out;
   transition:.3s ease-in-out;
   color: #fff;
   text-transform: capitalize;
@@ -745,13 +754,7 @@ Start Departments Section Css
 .departments {
   background: -o-linear-gradient(rgba(8, 55, 145, 0.7), rgba(8, 55, 145, 0.7)),
     url("../images/department-bg.jpg");
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(8, 55, 145, 0.7)),
-      to(rgba(8, 55, 145, 0.7))
-    ),
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 55, 145, 0.7)), to(rgba(8, 55, 145, 0.7))),
     url("../images/department-bg.jpg");
   background: linear-gradient(rgba(8, 55, 145, 0.7), rgba(8, 55, 145, 0.7)),
     url("../images/department-bg.jpg");
@@ -841,6 +844,8 @@ Start Research Solution Section Css
   color: #ff8e32;
 }
 .service-box{
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -857,6 +862,8 @@ Start Research Solution Section Css
   width: 100%;
   background:#083791;
   opacity: 0;
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
 .service-box:hover .border-effect{
@@ -921,17 +928,12 @@ Start Team Section Css
     rgba(112, 204, 255, 0.6),
     rgba(8, 55, 145, 0.6)
   );
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(112, 204, 255, 0.6)),
-    to(rgba(8, 55, 145, 0.6))
-  );
   background: -o-linear-gradient(
     rgba(112, 204, 255, 0.6),
     rgba(8, 55, 145, 0.6)
   );
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(112, 204, 255, 0.6)), to(rgba(8, 55, 145, 0.6)));
+  background: -o-linear-gradient(rgba(112, 204, 255, 0.6), rgba(8, 55, 145, 0.6));
   background: linear-gradient(rgba(112, 204, 255, 0.6), rgba(8, 55, 145, 0.6));
   height: 100%;
   border-radius: 8px;
@@ -1211,13 +1213,7 @@ Start Apartments Section Css
 .apartments {
   background: -o-linear-gradient(rgba(8, 55, 145, 0.7), rgba(8, 55, 145, 0.7)),
     url(../images/apartment-bg.jpg);
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(8, 55, 145, 0.7)),
-      to(rgba(8, 55, 145, 0.7))
-    ),
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 55, 145, 0.7)), to(rgba(8, 55, 145, 0.7))),
     url(../images/apartment-bg.jpg);
   background: linear-gradient(rgba(8, 55, 145, 0.7), rgba(8, 55, 145, 0.7)),
     url(../images/apartment-bg.jpg);
