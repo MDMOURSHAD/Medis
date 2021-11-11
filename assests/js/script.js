@@ -76,9 +76,9 @@ $(document).ready(function(){
 		}
 	});
 
-	// Counter Up 
-	$('.counter').counterUp({
-     });
+	// // Counter Up 
+	// $('.counter').counterUp({
+ //     });
 	
 	//Accordion
 	 $('select').niceSelect();
